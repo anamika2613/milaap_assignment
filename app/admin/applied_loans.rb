@@ -1,5 +1,7 @@
 ActiveAdmin.register AppliedLoan do
 
+  menu priority: 0
+
   config.filters = false
   scope :all, default: true
   scope :pending
