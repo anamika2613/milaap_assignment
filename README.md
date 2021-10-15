@@ -6,6 +6,8 @@ Ruby version 3.0.0
 Rails version 6.1.4.1
 
 rails webpacker:install 
+
+
 yarn add alertifyjs
 
 
@@ -25,5 +27,5 @@ Apply for loan form url:
 localhost:3000 
 
 
-Add fullcontact API Key inside application.yml 
+Add fullcontact API Key inside config/application.yml 
 
