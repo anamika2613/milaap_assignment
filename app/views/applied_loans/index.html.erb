@@ -1,0 +1,28 @@
+<h3 class="center">List of all applied Loans with system recommendation</h3>
+<br>
+<div class="row border">
+ <div class="col-md-4">
+  Email
+ </div>
+ <div class="col-md-4">
+  Credit Limit 
+ </div>
+ <div class="col-md-4">
+  Recommendation 
+ </div>
+</div>
+
+<div class="row border">
+<%@applied_loans.each do |applied_loan|%>
+<div class="col-md-4 border">
+<%=applied_loan.email%>
+</div>
+<div class="col-md-4 border">
+<%=applied_loan.credit_limit%>
+</div>
+<div class="col-md-4 border">
+<%=recommendation applied_loan.creditbility_score%>
+</div>
+<%end%>
+</div>
+

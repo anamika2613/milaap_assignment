@@ -1,0 +1,3 @@
+module AppliedLoansHelper
+
+end

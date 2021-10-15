@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  pan_card: MyString
+  aadhar_number: MyString
+  bank_account_number: MyString
+  ifsc_code: MyString
+  monthly_recurring_inflow: 1.5
+  monthly_recurring_outflow: 1.5
+  credit_limit: 1.5
+  creditbility_score: 1
+
+two:
+  email: MyString
+  pan_card: MyString
+  aadhar_number: MyString
+  bank_account_number: MyString
+  ifsc_code: MyString
+  monthly_recurring_inflow: 1.5
+  monthly_recurring_outflow: 1.5
+  credit_limit: 1.5
+  creditbility_score: 1
